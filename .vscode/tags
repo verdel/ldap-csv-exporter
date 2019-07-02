@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUTO_BIND_NO_TLS	../src/ldap_csv_exporter.py	/^from ldap3 import Server, ServerPool, Connection, FIRST, AUTO_BIND_NO_TLS, SUBTREE$/;"	kind:namespace	line:4
+Connection	../src/ldap_csv_exporter.py	/^from ldap3 import Server, ServerPool, Connection, FIRST, AUTO_BIND_NO_TLS, SUBTREE$/;"	kind:namespace	line:4
+FIRST	../src/ldap_csv_exporter.py	/^from ldap3 import Server, ServerPool, Connection, FIRST, AUTO_BIND_NO_TLS, SUBTREE$/;"	kind:namespace	line:4
+SUBTREE	../src/ldap_csv_exporter.py	/^from ldap3 import Server, ServerPool, Connection, FIRST, AUTO_BIND_NO_TLS, SUBTREE$/;"	kind:namespace	line:4
+Server	../src/ldap_csv_exporter.py	/^from ldap3 import Server, ServerPool, Connection, FIRST, AUTO_BIND_NO_TLS, SUBTREE$/;"	kind:namespace	line:4
+ServerPool	../src/ldap_csv_exporter.py	/^from ldap3 import Server, ServerPool, Connection, FIRST, AUTO_BIND_NO_TLS, SUBTREE$/;"	kind:namespace	line:4
+__init__.py	../src/__init__.py	1;"	kind:file	line:1
+__version__	../src/__init__.py	/^__version__ = '0.0.5'$/;"	kind:variable	line:1
+argparse	../src/ldap_csv_exporter.py	/^import argparse$/;"	kind:namespace	line:5
+author	../setup.py	/^    author='Vadim Aleksandrov',$/;"	kind:variable	line:29
+author_email	../setup.py	/^    author_email='valeksandrov@me.com',$/;"	kind:variable	line:30
+classifiers	../setup.py	/^    classifiers=[$/;"	kind:variable	line:38
+create_cli	../src/ldap_csv_exporter.py	/^def create_cli():$/;"	kind:function	line:60
+csv	../src/ldap_csv_exporter.py	/^import csv$/;"	kind:namespace	line:8
+description	../setup.py	/^    description='Export user or computer information from AD to csv',$/;"	kind:variable	line:27
+find_packages	../setup.py	/^from setuptools import setup, find_packages$/;"	kind:namespace	line:6
+get_ldap_connection	../src/ldap_csv_exporter.py	/^def get_ldap_connection(server=[], port='', ssl=False, timeout=0, binddn='', bindpasswd=''):$/;"	kind:function	line:11
+get_ldap_info	../src/ldap_csv_exporter.py	/^def get_ldap_info(connection='', timelimit=0, basedn='', filter=u'(&(objectClass=user))', attributes=[],):$/;"	kind:function	line:30
+here	../setup.py	/^here = path.abspath(path.dirname(__file__))$/;"	kind:variable	line:8
+include_package_data	../setup.py	/^    include_package_data=True,$/;"	kind:variable	line:34
+install_requires	../setup.py	/^    install_requires=requirements,$/;"	kind:variable	line:35
+keywords	../setup.py	/^    keywords='ldap csv',$/;"	kind:variable	line:36
+ldap_csv_exporter.py	../src/ldap_csv_exporter.py	1;"	kind:file	line:1
+license	../setup.py	/^    license='MIT',$/;"	kind:variable	line:37
+long_description	../setup.py	/^    long_description=readme,$/;"	kind:variable	line:28
+main	../src/ldap_csv_exporter.py	/^def main():$/;"	kind:function	line:86
+name	../setup.py	/^    name='ldap-csv-exporter',$/;"	kind:variable	line:25
+open	../setup.py	/^from codecs import open$/;"	kind:namespace	line:4
+packages	../setup.py	/^    packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),$/;"	kind:variable	line:32
+path	../setup.py	/^from os import path$/;"	kind:namespace	line:5
+path	../src/ldap_csv_exporter.py	/^from os import path$/;"	kind:namespace	line:6
+readme	../setup.py	/^    readme = readme_file.read()$/;"	kind:variable	line:19
+requirements	../setup.py	/^    requirements = requirements_file.read()$/;"	kind:variable	line:22
+setup	../setup.py	/^from setuptools import setup, find_packages$/;"	kind:namespace	line:6
+setup.py	../setup.py	1;"	kind:file	line:1
+sys	../src/ldap_csv_exporter.py	/^import sys$/;"	kind:namespace	line:7
+url	../setup.py	/^    url='https:\/\/github.com\/verdel\/ldap-csv-exporter',$/;"	kind:variable	line:31
+version	../setup.py	/^            version = line.split("=")[1].strip()$/;"	kind:variable	line:13
+version	../setup.py	/^            version = version.strip("'")$/;"	kind:variable	line:15
+version	../setup.py	/^            version = version.strip('"')$/;"	kind:variable	line:14
+version	../setup.py	/^    version=version,$/;"	kind:variable	line:26

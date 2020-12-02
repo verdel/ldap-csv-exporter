@@ -6,7 +6,12 @@ ldap-csv-exporter - Export user information from AD to csv
 What is this?
 *************
 ``ldap-csv-exporter`` provides an executable called ``ldap_csv_exporter``
-for concurrent squid behavior.
+for exporting data about the AD users to CSV file:
+
+ - username: sAMAccountName
+ - name: cn
+ - company: company
+ - department: department
 
 
 Installation
